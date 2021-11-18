@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
+[lib]
+crate-type = ["cdylib", "rlib"]
 [dependencies]
+near-contract-standards = "3.1.1"
 near-sdk = "3.1.0"
+near-sdk-macros = "3.1.0"
